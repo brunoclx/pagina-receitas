@@ -8,7 +8,7 @@ Meu segundo desafio proposto pelo site Frontend Mentor, para treinar as habilida
 
 ## 🚀 Como acessar
 - Desafio proposto: [Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
-- Minha solução: [Página Social](https://brunoclx.github.io/pagina-receitas/)
+- Minha solução: [Página de Receitas](https://brunoclx.github.io/pagina-receitas/)
 
 ## 📦 Tecnologias utilizadas
 - HTML

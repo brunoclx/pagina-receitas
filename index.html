@@ -7,29 +7,69 @@
         <title>Página de receita</title>
     </head>
     <body>
-      <main>
-        <section id="conteudo">
-            <article>
-                <header>
-                    <img src="assets/image-omelette.jpeg" alt="Foto de uma deliciosa omelete" loading="lazy">
-                    <h1>Receita Simples de Omelete</h1>
-                    <p>Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos, opcionalmente recheados com sua escolha de queijo, vegetais ou carnes.</p>
-                </header>
-                <section>
-                    <div id="preparacao">
-                        <h2>Tempo de preparação</h2>
-                        <ol>
-                            <li>Total: Aproximadamente 10 minutos</li>
-                            <li>Preparação: 5 minutos</li>
-                            <li>Cozinhando: 5 minutos</li>
+      <main role="main">
+        <article>
+            <header>
+                <img src="assets/image-omelette.jpeg" alt="Foto de uma deliciosa omelete" loading="lazy">
+                <h1>Receita Simples de Omelete</h1>
+                <p>Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos, opcionalmente recheados com sua escolha de queijo, vegetais ou carnes.</p>
+            </header>
+            <section>
+                <div id="preparacao">
+                    <h2>Tempo de preparação</h2>
+                    <ol role="list">
+                        <li><p><strong>Total:</strong> Aproximadamente 10 minutos</p></li>
+                        <li><p><strong>Preparação:</strong> 5 minutos</p></li>
+                        <li><p><strong>Cozimento:</strong> 5 minutos</p></li>
+                    </ol>
+                </div>
+                <div id="info-preparacao">
+                    <div class="box-info">
+                        <h2>Ingredientes</h2>
+                        <ol role="list">
+                            <li><p>2-3 ovos grandes</p></li>
+                            <li><p>Sal, a gosto</p></li>
+                            <li><p>Pimenta a gosto</p></li>
+                            <li><p>1 colher de sopa de manteiga ou óleo</p></li>
+                            <li><p>Recheios opcionais: queijo, vegetais em cubos, carnes cozidas, ervas</p></li>
                         </ol>
                     </div>
-                    <div id="info-preparacao">
-                        <div class="box-info"></div>
+                    <div class="box-info">
+                        <h2>Instruções</h2>
+                        <ul class="list">
+                            <li><p><strong>Bata os ovos:</strong> Em uma tigela, bata os ovos com uma pitada de sal e pimenta até que estejam bem misturados. Você pode adicionar uma colher de sopa de água ou leite para uma textura mais fofa.</p></li>
+                            <li><p><strong>Aqueça a panela:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.</p></li>
+                            <li><p><strong>Cozinhe a omelete:</strong> Assim que a manteiga estiver derretida e borbulhando, despeje os ovos. Incline a panela para garantir que os ovos cubram a superfície uniformemente.</p></li>
+                            <li><p><strong>Adicione recheios (opcional):</strong> Quando os ovos começarem a firmar nas bordas, mas ainda estiverem um pouco moles no meio, polvilhe o recheio escolhido sobre metade da omelete.</p></li>
+                            <li><p><strong>Dobre e sirva:</strong> Enquanto a omelete continua a cozinhar, levante cuidadosamente uma borda e dobre-a sobre os recheios. Deixe cozinhar por mais um minuto e, em seguida, deslize-a para um prato.</p></li>
+                            <li><p><strong>Aproveite:</strong> Sirva quente, com mais sal e pimenta, se necessário.</p></li>
+                        </ul>
                     </div>
-                </section>
-            </article>
-        </section>
+                    <div class="box-info last">
+                        <h2>Nutrição</h2>
+                        <p>A tabela abaixo mostra os valores nutricionais por porção, sem os recheios adicionais.</p>
+                        <table>
+                            <tr>
+                                <td>Calorias</td>
+                                <td>277kcal</td>
+                            </tr>
+                            <tr>
+                                <td>Carboidratos</td>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <td>Proteína</td>
+                                <td>20g</td>
+                            </tr>
+                            <tr>
+                                <td>Gordura</td>
+                                <td>22g</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </article>
       </main>  
     </body>
 </html>

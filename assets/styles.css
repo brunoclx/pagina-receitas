@@ -37,8 +37,8 @@ ul, ol {
 
 body{
     background-color: #f3e5d8;
-    color: #2d1f1a;
-
+    color: #5f564e;
+    
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -46,30 +46,32 @@ body{
     font-size: 16px;
 }
 
-#conteudo{
+main{
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: center;
-    height: 100vh;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-#conteudo article{
+article{
     background-color: #fff;
     border-radius: 25px;
     padding: 35px;
     width: 740px;
+    height: auto;
 }
 
-#conteudo article header img{
+article header img{
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 
-#conteudo article header h1{
+article header h1{
     font-size: 2.1875em;
+    color: #2d1f1a;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -77,7 +79,135 @@ body{
     margin-top: 30px;
 }
 
-#conteudo article header p{
-    color: #5f564e;
+article header p{
     margin-top: 15px;
+}
+
+article #preparacao{
+    background-color: #fff4f9;
+    padding: 25px;
+
+    margin-top: 30px;
+}
+
+article #preparacao h2{
+    font-size: 1.25em;
+    color: #7b274e;
+}
+
+article #preparacao ol{
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+article #preparacao li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+article #preparacao li::marker{
+    color: #7b274e;
+}
+
+article #preparacao li:last-child{
+    margin-bottom: 0px;
+}
+
+article .box-info{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e3ddd7;
+}
+
+article .box-info.last{
+    padding-bottom: 0px;
+    border-bottom: 0px solid #e3ddd7;
+}
+
+article .box-info h2{
+    font-family: "Young Serif", serif;
+    color: #854532;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6875em;
+    margin-bottom: 15px;
+}
+
+article .box-info ol, article .box-info ul{
+    padding-left: 25px;
+}
+
+article .box-info ol li{
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+article .box-info li::marker{
+    color: #854532;
+    font-weight: bold;
+}
+
+article .box-info li:last-child{
+    margin-bottom: 0px;
+}
+
+article .box-info ul li{
+    list-style: decimal;
+    margin-bottom: 10px;
+}
+
+article #preparacao ol li p, article .box-info ol li p, article .box-info ul li p{
+    padding-left: 15px;
+}
+
+article .box-info table{
+    width: 100%;
+    margin-top: 15px;
+}
+
+article .box-info tr{
+    display: flex;
+    border-bottom: 1px solid #e3ddd7;
+}
+
+article .box-info tr:last-child{
+    border-bottom: 0px solid #e3ddd7;
+}
+
+article .box-info tr td{
+    width: 50%;
+    padding: 15px;
+}
+
+article .box-info tr td:last-child{
+    color: #854532;
+    font-weight: bold;
+}
+
+article .box-info tr:last-child td{
+    padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    main{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    article{
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    article header img{
+        border-radius: 0px;
+    }
+
+    article header h1, article header p{
+        padding: 0px 35px;
+    }
+
+    article section{
+        padding: 0px 35px 35px 35px;
+    }
 }
